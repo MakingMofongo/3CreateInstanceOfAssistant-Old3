@@ -1,0 +1,29 @@
+{
+  "name": "create-instance-assistant",
+  "version": "0.0.1",
+  "description": "Create an instance of the Receptionist Assistant",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "@google-cloud/run": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "httpdispatcher": ">=2.1.2",
+    "sinon": "^19.0.2"
+  },
+  "engines": {
+    "node": "= 16.x.x"
+  }
+}
